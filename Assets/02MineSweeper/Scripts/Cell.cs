@@ -6,7 +6,7 @@ namespace MineSweeper
     {
         public enum Type
         {
-            Empty, Mine, Number
+            Invalid,Empty, Mine, Number
         }
         public Type type;
         /*  vector3 float deger donduruyor fakat grid yapilarda calisirken 
