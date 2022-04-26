@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 488120296}
   m_Layer: 0
   m_Name: asagibakan
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 1197506648}
   m_Layer: 0
   m_Name: yukaribakanyol
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1845,9 +1845,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1336481814140245033, guid: cf606511ea6943740b219de54ce99914, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336481814140245033, guid: cf606511ea6943740b219de54ce99914, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8891368551995055273, guid: cf606511ea6943740b219de54ce99914, type: 3}
       propertyPath: m_Name
       value: Mario
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891368551995055275, guid: cf606511ea6943740b219de54ce99914, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891368551995055275, guid: cf606511ea6943740b219de54ce99914, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8891368551995055277, guid: cf606511ea6943740b219de54ce99914, type: 3}
       propertyPath: m_RootOrder
@@ -1855,11 +1871,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8891368551995055277, guid: cf606511ea6943740b219de54ce99914, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7247424
+      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: 8891368551995055277, guid: cf606511ea6943740b219de54ce99914, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9196544
+      value: -4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8891368551995055277, guid: cf606511ea6943740b219de54ce99914, type: 3}
       propertyPath: m_LocalPosition.z
