@@ -10,6 +10,10 @@ TagManager:
   - Ladder
   - Destroyer
   - Platform
+  - Objective
+  - Obstacle
+  - Rotator
+  - Pin
   layers:
   - Default
   - TransparentFX
