@@ -9,7 +9,7 @@ namespace DoodleJump
         [SerializeField] float levelWidth = 3f, minY = 0.2f, maxY = 1.5f;
         void Start()
         {
-            Vector3 spawnPos = new Vector3();
+            Vector3 spawnPos = new Vector3(); 
             for (int i = 0; i < numberOfPlatform; i++)
             {
                 spawnPos.y += Random.Range(minY, maxY);
