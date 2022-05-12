@@ -6,7 +6,7 @@ namespace MineSweeper
     {
         public enum Type
         {
-            Invalid,Empty, Mine, Number
+            Invalid, Empty, Mine, Number
         }
         public Type type;
         /*  vector3 float deger donduruyor fakat grid yapilarda calisirken 
@@ -17,5 +17,4 @@ namespace MineSweeper
         public bool flagged;
         public bool exploded;
     }
-
 }

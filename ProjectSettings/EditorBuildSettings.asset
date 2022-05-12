@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/03DonkeyKong/Scenes/Level1.unity
-    guid: 58658de7223584149a53f8fadc89b044
+    path: Assets/05BrickBreaker/Global.unity
+    guid: a011945d8a70b4e0abd34f295803bca9
   - enabled: 1
-    path: Assets/03DonkeyKong/Scenes/Level2.unity
-    guid: a2a36bc596d6ddc45a0c9c0a27aa7a86
+    path: Assets/05BrickBreaker/Level1.unity
+    guid: d8c6557595cf94df28ddfbe83d24800a
+  - enabled: 1
+    path: Assets/05BrickBreaker/Level2.unity
+    guid: 73c07de3b4ee949029cb64e1ceb610ed
   m_configObjects: {}

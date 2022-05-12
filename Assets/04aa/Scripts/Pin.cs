@@ -23,7 +23,7 @@ namespace aa
                 Score.pinCount++;
                 isPinned = true;
             }
-            else if (collision.tag=="Pin")
+            else if (collision.tag == "Pin")
             {
                 FindObjectOfType<GameManager>().EndGame();
             }
